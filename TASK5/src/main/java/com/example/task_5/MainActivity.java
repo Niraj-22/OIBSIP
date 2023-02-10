@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             min=sec/60;
             sec=sec%60;
             millisec = (int) (tUpdate%100);
-            chronometer.setText(String.format("%02d",min)+":" + String.format("%02d",sec)+ ";" + String.format("%02d",millisec));
+            chronometer.setText(String.format("%02d",min)+":" + String.format("%02d",sec)+ ":" + String.format("%02d",millisec));
             handler.postDelayed(this,60);
 
         }
